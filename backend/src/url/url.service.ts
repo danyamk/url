@@ -38,6 +38,6 @@ export class UrlService {
   }
 
   async getAllUrls() {
-    return await this.prisma.url.findMany(); // Получение всех ссылок
+    return await this.prisma.url.findMany();
   }
 }
